@@ -41,10 +41,3 @@ description: "Power Electronics Design Automation and Tool Development"
 </ul>
 {% endif %}
 
-{% for post in site.posts %}{% if post.sticky %}
-* [{{post.title}}]({{post.url}}) {{post.date|date_to_string}}
-{% endif %}{% endfor %}
-
-{% for post in site.posts %}{% unless post.sticky %}
-* [{{post.title}}]({{post.url}}) {{post.date|date_to_string}}
-{% endunless %}{% endfor %}
