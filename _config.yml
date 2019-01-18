@@ -13,7 +13,7 @@ github_repo: "https://github.com/Potato-Ren/Potato-Ren.github.io" # you code rep
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/P1100464.jpg.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/P1100464.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
