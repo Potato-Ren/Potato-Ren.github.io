@@ -12,14 +12,14 @@ github_repo: "https://github.com/Potato-Ren/Potato-Ren.github.io" # you code rep
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/Pic.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/P1100464.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
 # weibo_username:     qiubaiying
-zhihu_username:     evans-joe
+zhihu_username:     evans joe
 github_username:    Potato-Ren
 #facebook_username:  
 #jianshu_username:   
