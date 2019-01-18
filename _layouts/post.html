@@ -1,13 +1,6 @@
 ---
 layout: default
 ---
-{% for post in site.posts %}{% if post.sticky %}
-* [{{post.title}}]({{post.url}}) {{post.date|date_to_string}}
-{% endif %}{% endfor %}
-
-{% for post in site.posts %}{% unless post.sticky %}
-* [{{post.title}}]({{post.url}}) {{post.date|date_to_string}}
-{% endunless %}{% endfor %}
 <!-- Image to hack wechat -->
 <!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
 <!-- <img src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}" width="0" height="0"> -->
@@ -232,3 +225,11 @@ layout: default
     }
 </style>
 {% endif %}
+
+{% for post in site.posts %}{% if post.sticky %}
+* [{{post.title}}]({{post.url}}) {{post.date|date_to_string}}
+{% endif %}{% endfor %}
+
+{% for post in site.posts %}{% unless post.sticky %}
+* [{{post.title}}]({{post.url}}) {{post.date|date_to_string}}
+{% endunless %}{% endfor %}
