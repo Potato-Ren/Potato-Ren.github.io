@@ -9,20 +9,19 @@ url: "Potato-Ren.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/Potato-Ren/Potato-Ren.github.io" # you code repository
 
+
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/P1100464.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/P1100464.jpg.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
 # weibo_username:     qiubaiying
-zhihu_username:     evans joe
+zhihu_username:     evans-joe
 github_username:    Potato-Ren
-#facebook_username:  
-#jianshu_username:   
 #twitter_username:   qiubaiying
 
 
@@ -57,16 +56,16 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-#disqus_username: rren3
+# disqus_username: qiubaiying
 
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
- clientID: b2c11cce742b07f0b35f                            #生成的clientID
- clientSecret: 39d2237fe54f65565091eabd965a7a0b468a17d2    #生成的clientSecret
- repo: Potato-Ren.github.io    #仓库名称
-  owner: Potato-Ren    #github用户名
-  admin: Potato-Ren
+  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
+  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
+  repo: qiubaiying.github.io    #仓库名称
+  owner: qiubaiying    #github用户名
+  admin: qiubaiying
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -74,11 +73,11 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-#ba_track_id: b50bf2b12b5338a1845e33832976fd68
+ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'UA-132749282-1'            # Format: UA-xxxxxx-xx
-ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -99,13 +98,16 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "知乎",
-        href: "https://www.zhihu.com/people/evans-joe/activities"
+        title: "WY",
+        href: "http://zhengwuyang.com"
     },{
-        title: "CURENT Center",
-        href: "https://curent.utk.edu/"
+        title: "简书·BY",
+        href: "http://www.jianshu.com/u/e71990ada2fd"
     },{
-        title: "Biographic info",
-        href: "https://curent.utk.edu/people/power-electronics-students/wang/ren-ren/"
+        title: "Apple",
+        href: "https://apple.com"
+    },{
+        title: "Apple Developer",
+        href: "https://developer.apple.com/"
     }
 ]
